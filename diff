@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f4;
+    }
+    header {
+      background: black;
+      color: white;
+      padding: 40px;
+    }
+    section {
+      padding: 40px;
+    }
+    button {
+      padding: 12px 20px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Brand Name</h1>
+  <p>Simple. Clean. Professional.</p>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>This is my website built for free.</p>
+  <button onclick="window.location.href='mailto:youremail@example.com'">
+    Contact Me
+  </button>
+</section>
+
+</body>
+</html>
